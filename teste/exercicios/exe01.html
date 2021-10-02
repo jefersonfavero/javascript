@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="styleshet" type="css" href="atyle.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <form action="index.html">
+            <label for="nomeEsobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeEsobrenome" class="form-control">
+
+            <label for="email">email</label>
+            <input type="text" id="email" class="form-control">
+
+            <label for="telefone">telefone</label>
+            <input type="text" id="telefone" class="form-control">
+
+            <input type="button" value="Enviar" class="btn btn-primary">
+
+        </form>
+        </div>
+    </div>
+
+    <script>
+        //window.alert("e ai")
+        //window.confirm("Deseja fechar?")
+        var nome = window.prompt("qual e seu nome?")
+        window.alert(nome)
+
+        n1 = Number.parseInt(window.prompt("digite um numero"))
+        n2 = Number.parseInt(window.prompt("digite um outro numero"))
+        n3 = n1 + n2
+        window.alert(`${nome} A soma do valor ${n1} e ${n2} e ` + n3)
+        String(n3) //conversao de int para string
+        
+    </script>
+</body>
+</html>
